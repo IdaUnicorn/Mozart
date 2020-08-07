@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5194704C-A21B-4EFF-81C5-8FF2578F9596}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>omregninger</RootNamespace>
+    <AssemblyName>omregninger</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>omregninger.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\Desktop\ZBC IT praktik og skoleforløb\Klargøring til H1 og H1\Opgaver til aflevering\Datatyper.cs">
+      <Link>Datatyper.cs</Link>
+    </Compile>
+    <Compile Include="Arrays.cs" />
+    <Compile Include="Betingelser.cs" />
+    <Compile Include="Løkker.cs" />
+    <Compile Include="NewProject.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SolutionFolder\M1.wav" />
+    <Content Include="SolutionFolder\M10.wav" />
+    <Content Include="SolutionFolder\M100.wav" />
+    <Content Include="SolutionFolder\M101.wav" />
+    <Content Include="SolutionFolder\M102.wav" />
+    <Content Include="SolutionFolder\M103.wav" />
+    <Content Include="SolutionFolder\M104.wav" />
+    <Content Include="SolutionFolder\M105.wav" />
+    <Content Include="SolutionFolder\M106.wav" />
+    <Content Include="SolutionFolder\M107.wav" />
+    <Content Include="SolutionFolder\M108.wav" />
+    <Content Include="SolutionFolder\M109.wav" />
+    <Content Include="SolutionFolder\M11.wav" />
+    <Content Include="SolutionFolder\M110.wav" />
+    <Content Include="SolutionFolder\M111.wav" />
+    <Content Include="SolutionFolder\M112.wav" />
+    <Content Include="SolutionFolder\M113.wav" />
+    <Content Include="SolutionFolder\M114.wav" />
+    <Content Include="SolutionFolder\M115.wav" />
+    <Content Include="SolutionFolder\M116.wav" />
+    <Content Include="SolutionFolder\M117.wav" />
+    <Content Include="SolutionFolder\M118.wav" />
+    <Content Include="SolutionFolder\M119.wav" />
+    <Content Include="SolutionFolder\M12.wav" />
+    <Content Include="SolutionFolder\M120.wav" />
+    <Content Include="SolutionFolder\M121.wav" />
+    <Content Include="SolutionFolder\M122.wav" />
+    <Content Include="SolutionFolder\M123.wav" />
+    <Content Include="SolutionFolder\M124.wav" />
+    <Content Include="SolutionFolder\M125.wav" />
+    <Content Include="SolutionFolder\M126.wav" />
+    <Content Include="SolutionFolder\M127.wav" />
+    <Content Include="SolutionFolder\M128.wav" />
+    <Content Include="SolutionFolder\M129.wav" />
+    <Content Include="SolutionFolder\M13.wav" />
+    <Content Include="SolutionFolder\M130.wav" />
+    <Content Include="SolutionFolder\M131.wav" />
+    <Content Include="SolutionFolder\M132.wav" />
+    <Content Include="SolutionFolder\M133.wav" />
+    <Content Include="SolutionFolder\M134.wav" />
+    <Content Include="SolutionFolder\M135.wav" />
+    <Content Include="SolutionFolder\M136.wav" />
+    <Content Include="SolutionFolder\M137.wav" />
+    <Content Include="SolutionFolder\M138.wav" />
+    <Content Include="SolutionFolder\M139.wav" />
+    <Content Include="SolutionFolder\M14.wav" />
+    <Content Include="SolutionFolder\M140.wav" />
+    <Content Include="SolutionFolder\M141.wav" />
+    <Content Include="SolutionFolder\M142.wav" />
+    <Content Include="SolutionFolder\M143.wav" />
+    <Content Include="SolutionFolder\M144.wav" />
+    <Content Include="SolutionFolder\M145.wav" />
+    <Content Include="SolutionFolder\M146.wav" />
+    <Content Include="SolutionFolder\M147.wav" />
+    <Content Include="SolutionFolder\M148.wav" />
+    <Content Include="SolutionFolder\M149.wav" />
+    <Content Include="SolutionFolder\M15.wav" />
+    <Content Include="SolutionFolder\M150.wav" />
+    <Content Include="SolutionFolder\M151.wav" />
+    <Content Include="SolutionFolder\M152.wav" />
+    <Content Include="SolutionFolder\M153.wav" />
+    <Content Include="SolutionFolder\M154.wav" />
+    <Content Include="SolutionFolder\M155.wav" />
+    <Content Include="SolutionFolder\M156.wav" />
+    <Content Include="SolutionFolder\M157.wav" />
+    <Content Include="SolutionFolder\M158.wav" />
+    <Content Include="SolutionFolder\M159.wav" />
+    <Content Include="SolutionFolder\M16.wav" />
+    <Content Include="SolutionFolder\M160.wav" />
+    <Content Include="SolutionFolder\M161.wav" />
+    <Content Include="SolutionFolder\M162.wav" />
+    <Content Include="SolutionFolder\M163.wav" />
+    <Content Include="SolutionFolder\M164.wav" />
+    <Content Include="SolutionFolder\M165.wav" />
+    <Content Include="SolutionFolder\M166.wav" />
+    <Content Include="SolutionFolder\M167.wav" />
+    <Content Include="SolutionFolder\M168.wav" />
+    <Content Include="SolutionFolder\M169.wav" />
+    <Content Include="SolutionFolder\M17.wav" />
+    <Content Include="SolutionFolder\M170.wav" />
+    <Content Include="SolutionFolder\M171.wav" />
+    <Content Include="SolutionFolder\M172.wav" />
+    <Content Include="SolutionFolder\M173.wav" />
+    <Content Include="SolutionFolder\M174.wav" />
+    <Content Include="SolutionFolder\M175.wav" />
+    <Content Include="SolutionFolder\M176.wav" />
+    <Content Include="SolutionFolder\M18.wav" />
+    <Content Include="SolutionFolder\M19.wav" />
+    <Content Include="SolutionFolder\M2.wav" />
+    <Content Include="SolutionFolder\M20.wav" />
+    <Content Include="SolutionFolder\M21.wav" />
+    <Content Include="SolutionFolder\M22.wav" />
+    <Content Include="SolutionFolder\M23.wav" />
+    <Content Include="SolutionFolder\M24.wav" />
+    <Content Include="SolutionFolder\M25.wav" />
+    <Content Include="SolutionFolder\M26.wav" />
+    <Content Include="SolutionFolder\M27.wav" />
+    <Content Include="SolutionFolder\M28.wav" />
+    <Content Include="SolutionFolder\M29.wav" />
+    <Content Include="SolutionFolder\M3.wav" />
+    <Content Include="SolutionFolder\M30.wav" />
+    <Content Include="SolutionFolder\M31.wav" />
+    <Content Include="SolutionFolder\M32.wav" />
+    <Content Include="SolutionFolder\M33.wav" />
+    <Content Include="SolutionFolder\M34.wav" />
+    <Content Include="SolutionFolder\M35.wav" />
+    <Content Include="SolutionFolder\M36.wav" />
+    <Content Include="SolutionFolder\M37.wav" />
+    <Content Include="SolutionFolder\M38.wav" />
+    <Content Include="SolutionFolder\M39.wav" />
+    <Content Include="SolutionFolder\M4.wav" />
+    <Content Include="SolutionFolder\M40.wav" />
+    <Content Include="SolutionFolder\M41.wav" />
+    <Content Include="SolutionFolder\M42.wav" />
+    <Content Include="SolutionFolder\M43.wav" />
+    <Content Include="SolutionFolder\M44.wav" />
+    <Content Include="SolutionFolder\M45.wav" />
+    <Content Include="SolutionFolder\M46.wav" />
+    <Content Include="SolutionFolder\M47.wav" />
+    <Content Include="SolutionFolder\M48.wav" />
+    <Content Include="SolutionFolder\M49.wav" />
+    <Content Include="SolutionFolder\M5.wav" />
+    <Content Include="SolutionFolder\M50.wav" />
+    <Content Include="SolutionFolder\M51.wav" />
+    <Content Include="SolutionFolder\M52.wav" />
+    <Content Include="SolutionFolder\M53.wav" />
+    <Content Include="SolutionFolder\M54.wav" />
+    <Content Include="SolutionFolder\M55.wav" />
+    <Content Include="SolutionFolder\M56.wav" />
+    <Content Include="SolutionFolder\M57.wav" />
+    <Content Include="SolutionFolder\M58.wav" />
+    <Content Include="SolutionFolder\M59.wav" />
+    <Content Include="SolutionFolder\M6.wav" />
+    <Content Include="SolutionFolder\M60.wav" />
+    <Content Include="SolutionFolder\M61.wav" />
+    <Content Include="SolutionFolder\M62.wav" />
+    <Content Include="SolutionFolder\M63.wav" />
+    <Content Include="SolutionFolder\M64.wav" />
+    <Content Include="SolutionFolder\M65.wav" />
+    <Content Include="SolutionFolder\M66.wav" />
+    <Content Include="SolutionFolder\M67.wav" />
+    <Content Include="SolutionFolder\M68.wav" />
+    <Content Include="SolutionFolder\M69.wav" />
+    <Content Include="SolutionFolder\M7.wav" />
+    <Content Include="SolutionFolder\M70.wav" />
+    <Content Include="SolutionFolder\M71.wav" />
+    <Content Include="SolutionFolder\M72.wav" />
+    <Content Include="SolutionFolder\M73.wav" />
+    <Content Include="SolutionFolder\M74.wav" />
+    <Content Include="SolutionFolder\M75.wav" />
+    <Content Include="SolutionFolder\M76.wav" />
+    <Content Include="SolutionFolder\M77.wav" />
+    <Content Include="SolutionFolder\M78.wav" />
+    <Content Include="SolutionFolder\M79.wav" />
+    <Content Include="SolutionFolder\M8.wav" />
+    <Content Include="SolutionFolder\M80.wav" />
+    <Content Include="SolutionFolder\M81.wav" />
+    <Content Include="SolutionFolder\M82.wav" />
+    <Content Include="SolutionFolder\M83.wav" />
+    <Content Include="SolutionFolder\M84.wav" />
+    <Content Include="SolutionFolder\M85.wav" />
+    <Content Include="SolutionFolder\M86.wav" />
+    <Content Include="SolutionFolder\M87.wav" />
+    <Content Include="SolutionFolder\M88.wav" />
+    <Content Include="SolutionFolder\M89.wav" />
+    <Content Include="SolutionFolder\M9.wav" />
+    <Content Include="SolutionFolder\M90.wav" />
+    <Content Include="SolutionFolder\M91.wav" />
+    <Content Include="SolutionFolder\M92.wav" />
+    <Content Include="SolutionFolder\M93.wav" />
+    <Content Include="SolutionFolder\M94.wav" />
+    <Content Include="SolutionFolder\M95.wav" />
+    <Content Include="SolutionFolder\M96.wav" />
+    <Content Include="SolutionFolder\M97.wav" />
+    <Content Include="SolutionFolder\M98.wav" />
+    <Content Include="SolutionFolder\M99.wav" />
+    <Content Include="SolutionFolder\T1.wav" />
+    <Content Include="SolutionFolder\T10.wav" />
+    <Content Include="SolutionFolder\T11.wav" />
+    <Content Include="SolutionFolder\T12.wav" />
+    <Content Include="SolutionFolder\T13.wav" />
+    <Content Include="SolutionFolder\T14.wav" />
+    <Content Include="SolutionFolder\T15.wav" />
+    <Content Include="SolutionFolder\T16.wav" />
+    <Content Include="SolutionFolder\T17.wav" />
+    <Content Include="SolutionFolder\T18.wav" />
+    <Content Include="SolutionFolder\T19.wav" />
+    <Content Include="SolutionFolder\T2.wav" />
+    <Content Include="SolutionFolder\T20.wav" />
+    <Content Include="SolutionFolder\T21.wav" />
+    <Content Include="SolutionFolder\T22.wav" />
+    <Content Include="SolutionFolder\T23.wav" />
+    <Content Include="SolutionFolder\T24.wav" />
+    <Content Include="SolutionFolder\T25.wav" />
+    <Content Include="SolutionFolder\T26.wav" />
+    <Content Include="SolutionFolder\T27.wav" />
+    <Content Include="SolutionFolder\T28.wav" />
+    <Content Include="SolutionFolder\T29.wav" />
+    <Content Include="SolutionFolder\T3.wav" />
+    <Content Include="SolutionFolder\T30.wav" />
+    <Content Include="SolutionFolder\T31.wav" />
+    <Content Include="SolutionFolder\T32.wav" />
+    <Content Include="SolutionFolder\T33.wav" />
+    <Content Include="SolutionFolder\T34.wav" />
+    <Content Include="SolutionFolder\T35.wav" />
+    <Content Include="SolutionFolder\T36.wav" />
+    <Content Include="SolutionFolder\T37.wav" />
+    <Content Include="SolutionFolder\T38.wav" />
+    <Content Include="SolutionFolder\T39.wav" />
+    <Content Include="SolutionFolder\T4.wav" />
+    <Content Include="SolutionFolder\T40.wav" />
+    <Content Include="SolutionFolder\T41.wav" />
+    <Content Include="SolutionFolder\T42.wav" />
+    <Content Include="SolutionFolder\T43.wav" />
+    <Content Include="SolutionFolder\T44.wav" />
+    <Content Include="SolutionFolder\T45.wav" />
+    <Content Include="SolutionFolder\T46.wav" />
+    <Content Include="SolutionFolder\T47.wav" />
+    <Content Include="SolutionFolder\T48.wav" />
+    <Content Include="SolutionFolder\T49.wav" />
+    <Content Include="SolutionFolder\T5.wav" />
+    <Content Include="SolutionFolder\T50.wav" />
+    <Content Include="SolutionFolder\T51.wav" />
+    <Content Include="SolutionFolder\T52.wav" />
+    <Content Include="SolutionFolder\T53.wav" />
+    <Content Include="SolutionFolder\T54.wav" />
+    <Content Include="SolutionFolder\T55.wav" />
+    <Content Include="SolutionFolder\T56.wav" />
+    <Content Include="SolutionFolder\T57.wav" />
+    <Content Include="SolutionFolder\T58.wav" />
+    <Content Include="SolutionFolder\T59.wav" />
+    <Content Include="SolutionFolder\T6.wav" />
+    <Content Include="SolutionFolder\T60.wav" />
+    <Content Include="SolutionFolder\T61.wav" />
+    <Content Include="SolutionFolder\T62.wav" />
+    <Content Include="SolutionFolder\T63.wav" />
+    <Content Include="SolutionFolder\T64.wav" />
+    <Content Include="SolutionFolder\T65.wav" />
+    <Content Include="SolutionFolder\T66.wav" />
+    <Content Include="SolutionFolder\T67.wav" />
+    <Content Include="SolutionFolder\T68.wav" />
+    <Content Include="SolutionFolder\T69.wav" />
+    <Content Include="SolutionFolder\T7.wav" />
+    <Content Include="SolutionFolder\T70.wav" />
+    <Content Include="SolutionFolder\T71.wav" />
+    <Content Include="SolutionFolder\T72.wav" />
+    <Content Include="SolutionFolder\T73.wav" />
+    <Content Include="SolutionFolder\T74.wav" />
+    <Content Include="SolutionFolder\T75.wav" />
+    <Content Include="SolutionFolder\T76.wav" />
+    <Content Include="SolutionFolder\T77.wav" />
+    <Content Include="SolutionFolder\T78.wav" />
+    <Content Include="SolutionFolder\T79.wav" />
+    <Content Include="SolutionFolder\T8.wav" />
+    <Content Include="SolutionFolder\T80.wav" />
+    <Content Include="SolutionFolder\T81.wav" />
+    <Content Include="SolutionFolder\T82.wav" />
+    <Content Include="SolutionFolder\T83.wav" />
+    <Content Include="SolutionFolder\T84.wav" />
+    <Content Include="SolutionFolder\T85.wav" />
+    <Content Include="SolutionFolder\T86.wav" />
+    <Content Include="SolutionFolder\T87.wav" />
+    <Content Include="SolutionFolder\T88.wav" />
+    <Content Include="SolutionFolder\T89.wav" />
+    <Content Include="SolutionFolder\T9.wav" />
+    <Content Include="SolutionFolder\T90.wav" />
+    <Content Include="SolutionFolder\T91.wav" />
+    <Content Include="SolutionFolder\T92.wav" />
+    <Content Include="SolutionFolder\T93.wav" />
+    <Content Include="SolutionFolder\T94.wav" />
+    <Content Include="SolutionFolder\T95.wav" />
+    <Content Include="SolutionFolder\T96.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
